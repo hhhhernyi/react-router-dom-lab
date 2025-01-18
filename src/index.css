@@ -66,3 +66,90 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* src/index.css */
+
+body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-right: 16px;
+}
+
+.mail-box {
+  border: 2px solid white;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label,
+button {
+  margin: 16px 0px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  padding: 8px;
+}
+
+button {
+  background-color: #535bf2;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  max-width: 900px;
+}
+.navBarEl {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+#navBarEl {
+  display: flex;
+  justify-content:space-around;
+  width: 100%;
+}
+#allMail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mailbox {
+  background-color: burlywood;
+  width: 300px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+h1, h2, h3 {
+  text-align: center;
+}
